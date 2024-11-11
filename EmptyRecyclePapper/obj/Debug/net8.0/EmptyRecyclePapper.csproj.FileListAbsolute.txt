@@ -1,0 +1,14 @@
+C:\Users\darmarzrold\source\repos\EmptyRecyclePapper\EmptyRecyclePapper\bin\Debug\net8.0\EmptyRecyclePapper.exe
+C:\Users\darmarzrold\source\repos\EmptyRecyclePapper\EmptyRecyclePapper\bin\Debug\net8.0\EmptyRecyclePapper.deps.json
+C:\Users\darmarzrold\source\repos\EmptyRecyclePapper\EmptyRecyclePapper\bin\Debug\net8.0\EmptyRecyclePapper.runtimeconfig.json
+C:\Users\darmarzrold\source\repos\EmptyRecyclePapper\EmptyRecyclePapper\bin\Debug\net8.0\EmptyRecyclePapper.dll
+C:\Users\darmarzrold\source\repos\EmptyRecyclePapper\EmptyRecyclePapper\bin\Debug\net8.0\EmptyRecyclePapper.pdb
+C:\Users\darmarzrold\source\repos\EmptyRecyclePapper\EmptyRecyclePapper\obj\Debug\net8.0\EmptyRecyclePapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darmarzrold\source\repos\EmptyRecyclePapper\EmptyRecyclePapper\obj\Debug\net8.0\EmptyRecyclePapper.AssemblyInfoInputs.cache
+C:\Users\darmarzrold\source\repos\EmptyRecyclePapper\EmptyRecyclePapper\obj\Debug\net8.0\EmptyRecyclePapper.AssemblyInfo.cs
+C:\Users\darmarzrold\source\repos\EmptyRecyclePapper\EmptyRecyclePapper\obj\Debug\net8.0\EmptyRecyclePapper.csproj.CoreCompileInputs.cache
+C:\Users\darmarzrold\source\repos\EmptyRecyclePapper\EmptyRecyclePapper\obj\Debug\net8.0\EmptyRecyclePapper.dll
+C:\Users\darmarzrold\source\repos\EmptyRecyclePapper\EmptyRecyclePapper\obj\Debug\net8.0\refint\EmptyRecyclePapper.dll
+C:\Users\darmarzrold\source\repos\EmptyRecyclePapper\EmptyRecyclePapper\obj\Debug\net8.0\EmptyRecyclePapper.pdb
+C:\Users\darmarzrold\source\repos\EmptyRecyclePapper\EmptyRecyclePapper\obj\Debug\net8.0\EmptyRecyclePapper.genruntimeconfig.cache
+C:\Users\darmarzrold\source\repos\EmptyRecyclePapper\EmptyRecyclePapper\obj\Debug\net8.0\ref\EmptyRecyclePapper.dll
