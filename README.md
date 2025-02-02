@@ -1,6 +1,10 @@
 # Console.App.NET
 
-This is a UTN project
+> [!IMPORTANT]
+> This project is still in development
+
+
+This standalone project is a console application that analyzes the TEMP folder, generating a detailed log of the files and folders present, along with their total size. Additionally, it offers the option to delete all detected files, excluding those in use by running applications. However, these files in use are also recorded for your reference.
 
 ## Requirements
 
