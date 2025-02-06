@@ -6,15 +6,16 @@ namespace TempRecycle.Utils
     {
         public static async Task RemoveALl(string path, int folderCount, int filesCount)
         {
+            int currentLine = Console.CursorTop;
 
             Console.WriteLine("\nDeseas eliminar los archivos Temporales? (Y/N):");
-
             string? respuesta = Console.ReadLine()?.Trim().ToUpper();
 
 
             if (string.IsNullOrEmpty(respuesta))
             {
-                Console.WriteLine("No escribio ningun dato");
+                BoxMessage.ShowError("No se escribio ningun dato", ref currentLine);
+                return;
             }
 
             var files = new ConcurrentBag<string>(Directory.EnumerateFiles(path, "*", SearchOption.AllDirectories).Where(f => !f.Contains("Microsoft.CodeAnalysis") && !f.Contains("Windows")));
@@ -35,17 +36,17 @@ namespace TempRecycle.Utils
                         {
                             File.SetAttributes(file, FileAttributes.Normal);
                             File.Delete(file);
-                            Console.WriteLine($"Archivos Eliminado:");
+                            BoxMessage.ShowInfo("Archivos Eliminados", ref currentLine);
                         }
 
                     }
                     catch (UnauthorizedAccessException ex)
                     {
-                        TempMessage.ShowTempMessage($"Could not in {file}: {ex.Message}", Console.CursorTop);
+                        BoxMessage.ShowError($"Could not in {file}: {ex.Message}", ref currentLine);
                     }
                     catch (IOException ex)
                     {
-                        TempMessage.ShowTempMessage($"Could not in {file}: {ex.Message}", Console.CursorTop);
+                        BoxMessage.ShowError($"Could not in {file}: {ex.Message}",  ref currentLine);
                     }
                     await Task.Yield();
                 }
@@ -55,25 +56,25 @@ namespace TempRecycle.Utils
                     try
                     {
                         Directory.Delete(dir);
-                        Console.WriteLine($"Folder del eliminado");
+                        BoxMessage.ShowInfo("Folder eliminados", ref currentLine);
                     }
                     catch (UnauthorizedAccessException ex)
                     {
-                        TempMessage.ShowTempMessage($"Could not in {dir}: {ex.Message}", Console.CursorTop);
+                        BoxMessage.ShowError($"Could not in {dir}: {ex.Message}", ref currentLine);
                     }
                     catch (IOException ex)
                     {
-                        TempMessage.ShowTempMessage($"Could not in {dir}: {ex.Message}", Console.CursorTop);
+                        BoxMessage.ShowError($"Could not in {dir}: {ex.Message}", ref currentLine);
                     }
                 }
             }
             else if (respuesta == "N")
             {
-                Console.WriteLine("Operacion Cancelada");
+                BoxMessage.ShowInfo("Operacion Cancelada", ref currentLine);
             }
             else
             {
-                Console.WriteLine("Operacion invalida");
+                BoxMessage.ShowError("Operacion invalida", ref currentLine);
             }
         }
     }

@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|c:\\users\\darmarzrold\\source\\repos\\emptyrecyclebin.net\\temprecycle\\utils\\countfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|solutionrelative:temprecycle\\utils\\countfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|c:\\users\\darmarzrold\\source\\repos\\emptyrecyclebin.net\\temprecycle\\utils\\remove file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|solutionrelative:temprecycle\\utils\\remove file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|c:\\users\\darmarzrold\\source\\repos\\emptyrecyclebin.net\\temprecycle\\utils\\boxmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|solutionrelative:temprecycle\\utils\\boxmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|c:\\users\\darmarzrold\\source\\repos\\emptyrecyclebin.net\\temprecycle\\utils\\tempmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|solutionrelative:temprecycle\\utils\\tempmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|c:\\users\\darmarzrold\\source\\repos\\emptyrecyclebin.net\\temprecycle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|solutionrelative:temprecycle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|c:\\users\\darmarzrold\\source\\repos\\emptyrecyclebin.net\\temprecycle\\auth\\adminconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|solutionrelative:temprecycle\\auth\\adminconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|c:\\users\\darmarzrold\\source\\repos\\emptyrecyclebin.net\\temprecycle\\utils\\drawprog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|solutionrelative:temprecycle\\utils\\drawprog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|c:\\users\\darmarzrold\\source\\repos\\emptyrecyclebin.net\\temprecycle\\utils\\frombytes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A6B6A6-4BAB-4F75-827C-890433ADD081}|TempRecycle\\TempRecycle.csproj|solutionrelative:temprecycle\\utils\\frombytes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,13 +70,104 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BoxMessage.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Utils\\BoxMessage.cs",
+              "RelativeDocumentMoniker": "TempRecycle\\Utils\\BoxMessage.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Utils\\BoxMessage.cs",
+              "RelativeToolTip": "TempRecycle\\Utils\\BoxMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T21:27:08.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminConfig.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Auth\\AdminConfig.cs",
+              "RelativeDocumentMoniker": "TempRecycle\\Auth\\AdminConfig.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Auth\\AdminConfig.cs",
+              "RelativeToolTip": "TempRecycle\\Auth\\AdminConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T21:22:43.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CountFiles.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Utils\\CountFiles.cs",
+              "RelativeDocumentMoniker": "TempRecycle\\Utils\\CountFiles.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Utils\\CountFiles.cs",
+              "RelativeToolTip": "TempRecycle\\Utils\\CountFiles.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T21:22:41.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DrawProg.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Utils\\DrawProg.cs",
+              "RelativeDocumentMoniker": "TempRecycle\\Utils\\DrawProg.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Utils\\DrawProg.cs",
+              "RelativeToolTip": "TempRecycle\\Utils\\DrawProg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T21:22:40.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FromBytes.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Utils\\FromBytes.cs",
+              "RelativeDocumentMoniker": "TempRecycle\\Utils\\FromBytes.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Utils\\FromBytes.cs",
+              "RelativeToolTip": "TempRecycle\\Utils\\FromBytes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T21:22:39.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Remove file.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Utils\\Remove file.cs",
+              "RelativeDocumentMoniker": "TempRecycle\\Utils\\Remove file.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Utils\\Remove file.cs",
+              "RelativeToolTip": "TempRecycle\\Utils\\Remove file.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwDsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T21:22:38.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TempMessage.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Utils\\TempMessage.cs",
+              "RelativeDocumentMoniker": "TempRecycle\\Utils\\TempMessage.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Utils\\TempMessage.cs",
+              "RelativeToolTip": "TempRecycle\\Utils\\TempMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T21:22:36.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Program.cs",
               "RelativeDocumentMoniker": "TempRecycle\\Program.cs",
               "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\Program.cs",
               "RelativeToolTip": "TempRecycle\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwBgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T13:29:01.672Z",
               "EditorCaption": ""

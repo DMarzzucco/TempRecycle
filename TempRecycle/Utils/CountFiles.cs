@@ -1,6 +1,5 @@
 ﻿
 using System.Collections.Concurrent;
-using System.IO;
 
 namespace TempRecycle.Utils
 {
@@ -8,6 +7,8 @@ namespace TempRecycle.Utils
     {
         public static async Task<(int, int, long)> GetFileAndSizeAsync(string path)
         {
+            int currentLine = Console.CursorTop;
+
             int fileCount = 0;
             int folderCount = 0;
             long totalSize = 0;
@@ -32,9 +33,7 @@ namespace TempRecycle.Utils
 
                         if (fileInfo.Attributes.HasFlag(FileAttributes.System) || fileInfo.Attributes.HasFlag(FileAttributes.Hidden))
                         {
-                            //Console.WriteLine($"Archivo protegido: {file}");
-                            TempMessage.ShowTempMessage($"Protect file{file}", Console.CursorTop);
-                            //return;
+                            BoxMessage.ShowError($"Protect file{file}", ref currentLine);
                         }
                         totalSize += fileInfo.Length;
                         fileCount++;
@@ -43,8 +42,7 @@ namespace TempRecycle.Utils
                     }
                     catch (Exception ex)
                     {
-                        //Console.WriteLine($"No se puede acceder a {file}: {ex.Message}");
-                        TempMessage.ShowTempMessage($"Could not in {file}: {ex.Message}", Console.CursorTop);
+                        BoxMessage.ShowError($"Could not in {file}: {ex.Message}", ref currentLine);
                     }
                     await Task.Yield();
                 }
@@ -59,22 +57,24 @@ namespace TempRecycle.Utils
                     }
                     catch (Exception ex)
                     {
-                        //Console.WriteLine($"No se puede acceder a {dir}: {ex.Message}");
-                        TempMessage.ShowTempMessage($"Could not in {dir}: {ex.Message}", Console.CursorTop);
+                        BoxMessage.ShowError($"Could not in {dir}: {ex.Message}", ref currentLine);
                     }
                     await Task.Yield();
                 }
             }
             catch (UnauthorizedAccessException ex)
             {
-                //Console.WriteLine("Acceso denegado a algunos directorios.");
-                TempMessage.ShowTempMessage($"Denied access: {ex.Message}", Console.CursorTop);
+                BoxMessage.ShowError($"Denied access: {ex.Message}", ref currentLine);
             }
             catch (Exception ex)
             {
-                //Console.WriteLine($"Error al escanear archivos: {ex.Message}");
-                TempMessage.ShowTempMessage($"Error to scan files: {ex.Message}", Console.CursorTop);
+                BoxMessage.ShowError($"Error to scan files: {ex.Message}", ref currentLine);
             }
+
+            //BoxMessage.ShowDate(
+            //    $"Total Files:{fileCount}" +
+            //    $"Total Folders:{folderCount}" +
+            //    $"Total Size:{FromBytes.FormatBytes(totalSize)}", Console.CursorTop);
 
             Console.WriteLine($"\nCantidad de archivos:{fileCount}");
             Console.WriteLine($"Cantidad de carpeta:{folderCount}");

@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oAy2OnEzADo=",
+  "dgSpecHash": "l43Zi89oL7s=",
   "success": true,
   "projectFilePath": "C:\\Users\\darmarzrold\\source\\repos\\EmptyRecycleBin.NET\\TempRecycle\\TempRecycle.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\darmarzrold\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.12\\microsoft.netcore.app.runtime.win-x64.8.0.12.nupkg.sha512",
-    "C:\\Users\\darmarzrold\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.12\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.12.nupkg.sha512",
-    "C:\\Users\\darmarzrold\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.12\\microsoft.aspnetcore.app.runtime.win-x64.8.0.12.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

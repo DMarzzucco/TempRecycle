@@ -1,19 +1,15 @@
-﻿using System;
-using System.IO;
-using System.Threading;
-using System.Security.Principal;
-using System.Diagnostics;
-using TempRecycle.Auth;
+﻿using TempRecycle.Auth;
 using TempRecycle.Utils;
 
 class Program
 {
     static async Task Main(string[] args)
     {
+        int currentLine = Console.CursorTop;
         // Admin
         if (!AdminConfig.isRunningAsAdmin())
         {
-            Console.WriteLine("Se necesita ser admin");
+            BoxMessage.ShowError("Se necesuta ser admin", ref currentLine);
             Console.WriteLine("Presiona Cualquier tecla para salir");
             Console.ReadKey();
             AdminConfig.RestarAsAdminstrator();
@@ -21,12 +17,11 @@ class Program
         }
 
         Console.WriteLine("Welcome, presione (E) para hacer el escaneo. (N) para cancelar la operacion");
-
         string? respuesta = Console.ReadLine()?.Trim().ToUpper();
 
         if (string.IsNullOrEmpty(respuesta))
         {
-            Console.WriteLine("No escribio ningun dato");
+            BoxMessage.ShowError("No se ingresó ningún dato", ref currentLine);
             Console.WriteLine("Presiona cualquier tecla para salir...");
             Console.ReadKey();
             return;
@@ -39,7 +34,7 @@ class Program
 
             if (tempPath == null)
             {
-                Console.WriteLine("No se pudo obtener la carpeta TEMP");
+                BoxMessage.ShowError("No se pudo obtener la carpeta TEMP", ref currentLine);
                 return;
             }
 
@@ -52,11 +47,11 @@ class Program
         }
         else if (respuesta == "N")
         {
-            Console.WriteLine("Operacion Cancelada");
+            BoxMessage.ShowInfo("Operación cancelada", ref currentLine);
         }
         else
         {
-            Console.WriteLine("Operacion no valida");
+            BoxMessage.ShowError("Operación invalida", ref currentLine);
         }
 
 
