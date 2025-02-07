@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TempRecycle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47ac86fe589a83f6492054661873d8743aa86431")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1be2b97d52ee26bac94e2daf33f0b72da0c46477")]
 [assembly: System.Reflection.AssemblyProductAttribute("TempRecycle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TempRecycle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

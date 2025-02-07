@@ -8,13 +8,13 @@ namespace TempRecycle.Utils
         {
             int currentLine = Console.CursorTop;
 
-            Console.WriteLine("\nDeseas eliminar los archivos Temporales? (Y/N):");
+            Console.WriteLine("\nDo you want to delete the scanned files? (Y/N):");
             string? respuesta = Console.ReadLine()?.Trim().ToUpper();
 
 
             if (string.IsNullOrEmpty(respuesta))
             {
-                BoxMessage.ShowError("No se escribio ningun dato", ref currentLine);
+                BoxMessage.ShowError("No data was written", ref currentLine);
                 return;
             }
 
@@ -36,17 +36,17 @@ namespace TempRecycle.Utils
                         {
                             File.SetAttributes(file, FileAttributes.Normal);
                             File.Delete(file);
-                            BoxMessage.ShowInfo("Archivos Eliminados", ref currentLine);
+                            BoxMessage.ShowInfo("Deleted Files", ref currentLine);
                         }
 
                     }
                     catch (UnauthorizedAccessException ex)
                     {
-                        BoxMessage.ShowError($"Could not in {file}: {ex.Message}", ref currentLine);
+                        BoxMessage.ShowError($"Could not in {file} : {ex.Message}", ref currentLine);
                     }
                     catch (IOException ex)
                     {
-                        BoxMessage.ShowError($"Could not in {file}: {ex.Message}",  ref currentLine);
+                        BoxMessage.ShowError($"Could not in {file} : {ex.Message}",  ref currentLine);
                     }
                     await Task.Yield();
                 }
@@ -56,25 +56,25 @@ namespace TempRecycle.Utils
                     try
                     {
                         Directory.Delete(dir);
-                        BoxMessage.ShowInfo("Folder eliminados", ref currentLine);
+                        BoxMessage.ShowInfo("Deleted Folders", ref currentLine);
                     }
                     catch (UnauthorizedAccessException ex)
                     {
-                        BoxMessage.ShowError($"Could not in {dir}: {ex.Message}", ref currentLine);
+                        BoxMessage.ShowError($"Could not in {dir} : {ex.Message}", ref currentLine);
                     }
                     catch (IOException ex)
                     {
-                        BoxMessage.ShowError($"Could not in {dir}: {ex.Message}", ref currentLine);
+                        BoxMessage.ShowError($"Could not in {dir} : {ex.Message}", ref currentLine);
                     }
                 }
             }
             else if (respuesta == "N")
             {
-                BoxMessage.ShowInfo("Operacion Cancelada", ref currentLine);
+                BoxMessage.ShowInfo("Cancel Operation", ref currentLine);
             }
             else
             {
-                BoxMessage.ShowError("Operacion invalida", ref currentLine);
+                BoxMessage.ShowError("Faild Operation", ref currentLine);
             }
         }
     }
