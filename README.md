@@ -81,9 +81,9 @@ When executing the application, it will display an analysis of the files and fol
 ![Models](/img/Example.png)
 
 >[!CAUTION]
-> Deleting temporary files may affect running programs.
-> It is recommended to review files before deletion.
-> Some files may require elevated permissions to be deleted.
+> - Deleting temporary files may affect running programs.
+> - It is recommended to review files before deletion.
+> - Some files may require elevated permissions to be deleted.
 
 
 >[!TIP]
