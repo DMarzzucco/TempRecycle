@@ -9,7 +9,7 @@ This tool makes it easy to clean the system, avoiding the manual task of deletin
 
 ## Installation 
 
-### 1 🔽 Download the `rex.exe` file
+### 1 🔽 Download the `rec.exe` file
 
 [Download 📥](https://github.com/DMarzzucco/TempRecycle/releases/download/v1.0.0/rec.exe)
 
