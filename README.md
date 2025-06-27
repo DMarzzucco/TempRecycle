@@ -19,9 +19,9 @@ Navigate to the folder where you want to download the file, and copy/cut it.
 
 ### 3 📁 Create the installation folder
 
-- 1. Got to Local Disk C: and create a folder named `Tools` (or any name of your choice).
+1. Got to Local Disk C: and create a folder named `Tools` (or any name of your choice).
 
-- 2. Inside `Tools`, paste the `rec.exe`file.
+2. Inside `Tools`, paste the `rec.exe`file.
 
 Your directory structure should look like this:
 
@@ -31,8 +31,8 @@ C:\Tools\
 ```
 ### 4 ⚙️ Add the path to system environment variables
 
-- 1. Copy the installation folder path (e.g , `C:\Tools\`).
-- 2. Open the Environment Variable menu in Windows:
+1. Copy the installation folder path (e.g , `C:\Tools\`).
+2. Open the Environment Variable menu in Windows:
 
     - Pres `Win + R`, type `sysdm.cpl`, and press `Enter`.
 
