@@ -6,12 +6,6 @@
 
 This tool makes it easy to clean the system, avoiding the manual task of deleting temporary files.
 
-## Requirements
-
-- .NET 8
-- Administrator permissions
-
-
 
 ## Installation 
 
@@ -19,37 +13,34 @@ This tool makes it easy to clean the system, avoiding the manual task of deletin
 
 Clone the repository using the following command or manually download the code from GitHub:
 
-```sh
+```shell
 git clone https://github.com/DMarzzucco/EmptyRecycleBin.NET.git
 ```
 ### 2 Copy build files
 
 Navigate to the build folder;
 
-```sh
-cd TempRecycle\bin\Debug\net8.0
+```shell
+cd TempRecycle
 ```
-Copy all files from this folder.
+Copy the file `rec.exe`.
 
 ### 3 Create the installation folder
 
 - 1. Got to Local Disk C: and create a folder named `Tools` (or any name of your choice).
 
-- 2. Inside `Tools`, create another folder with a custom name (e.g, `TempRecycle`).
-
-- 3. Paste the copied files into this folder.
+- 2. Inside `Tools`, paste the `rec.exe`file.
 
 Your directory structure should look like this:
 
-```
-C:\Tools\TempRecycle\
-    ├── TempRecycle.exe
-    ├── Other build files...
+```shell
+C:\Tools\
+    ├── rec.exe
 
 ```
 ### 4 Add the path to system environment variables
 
-- 1. Copy the installation folder path (e.g , `C:\Tools\TempRecycle\`).
+- 1. Copy the installation folder path (e.g , `C:\Tools\`).
 - 2. Open the Environment Variable menu in Windows:
 
     - Pres `Win + R`, type `sysdm.cpl`, and press `Enter`.
@@ -58,7 +49,7 @@ C:\Tools\TempRecycle\
 
     - Under **System Variables**, select `Path` and click **Edit**.
 
-    - Click **New** and paste the copied path (`C:\Tools\TempRecycle\`).
+    - Click **New** and paste the copied path (`C:\Tools\`).
 
     -  Save the changes and close all windows.
 
@@ -66,10 +57,9 @@ C:\Tools\TempRecycle\
 
 Open a terminal with administrator privileges and type:
 
+```shell
+rec
 ```
-TempRecycle
-```
-
 If everything is installed correctly, the application is ready to use. 
 
 ## Usage
