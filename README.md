@@ -9,23 +9,15 @@ This tool makes it easy to clean the system, avoiding the manual task of deletin
 
 ## Installation 
 
-### 1 Download the Repository
+### 1 🔽 Download the `rex.exe` file
 
-Clone the repository using the following command or manually download the code from GitHub:
+[Download 📥](https://github.com/DMarzzucco/TempRecycle/releases/download/v1.0.0/rec.exe)
 
-```shell
-git clone https://github.com/DMarzzucco/EmptyRecycleBin.NET.git
-```
-### 2 Copy build files
+### 2 📌 Copy or Cut the file
 
-Navigate to the build folder;
+Navigate to the folder where you want to download the file, and copy/cut it.
 
-```shell
-cd TempRecycle
-```
-Copy the file `rec.exe`.
-
-### 3 Create the installation folder
+### 3 📁 Create the installation folder
 
 - 1. Got to Local Disk C: and create a folder named `Tools` (or any name of your choice).
 
@@ -36,9 +28,8 @@ Your directory structure should look like this:
 ```shell
 C:\Tools\
     ├── rec.exe
-
 ```
-### 4 Add the path to system environment variables
+### 4 ⚙️ Add the path to system environment variables
 
 - 1. Copy the installation folder path (e.g , `C:\Tools\`).
 - 2. Open the Environment Variable menu in Windows:
@@ -53,9 +44,9 @@ C:\Tools\
 
     -  Save the changes and close all windows.
 
-### 5 Test the installation.
+### 5 ▶️ Running.
 
-Open a terminal with administrator privileges and type:
+Open a terminal and type:
 
 ```shell
 rec
