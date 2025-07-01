@@ -32,7 +32,7 @@ namespace IntMain
         if (input.empty())
         {
             BoxMessage::ShowError("No data was entered");
-            std::cout << "Push any key to close...\n";
+            std::cout << "Push ENTER to close...\n";
             std::cin.get();
             return 1;
         }
@@ -45,7 +45,7 @@ namespace IntMain
         else if (input == "N" || input == "n")
         {
             BoxMessage::ShowInfo("Cancel Operation");
-            std::cout << "Push any key to close...\n";
+            std::cout << "Push ENTER to close...\n";
             std::cin.get();
             return 1;
         }

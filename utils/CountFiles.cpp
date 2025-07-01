@@ -95,14 +95,14 @@ namespace CountFiles
         if (input == "Y" || input == "y")
         {
             RemoveFile::RemoveAll(path, fileCount, folderCount);
-            std::cout << "\n Temp was cleaning, put any key to close the terminal...";
+            std::cout << "\n Temp was cleaning, put ENTER to close the terminal...";
             std::cin.get();
             return;
         }
         else if (input == "N" || input == "n")
         {
             BoxMessage::ShowInfo("Cancel Operation");
-            std::cout << "Push any key to close...\n";
+            std::cout << "Push ENTER to close...\n";
             std::cin.get();
             return;
         }
